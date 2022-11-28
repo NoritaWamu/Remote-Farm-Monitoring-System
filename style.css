@@ -1,0 +1,137 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+/* grid code */
+
+.grid-container {
+	display: grid;
+	grid-template-rows: 1fr 1fr 18fr 1fr;
+}
+
+.logo {
+	grid-column-start: 1;
+	grid-column-end: 2;
+}
+
+.page-heading {
+	grid-column-start: 2;
+	grid-column-end: 5;
+}
+
+.sidebar {
+	grid-column-start: 1;
+	grid-column-end: 2;
+}
+
+.main-content {
+	grid-column: 2/5 ;
+}
+
+.footer {
+	grid-column: 1/5;
+}
+
+/* presentability code */
+
+* {
+	font-family: sans-serif;
+}
+
+.page-heading {
+	background: rgb(0, 128, 128);
+	padding:  20px;
+	color: #FFF;
+}
+
+.logo {
+	background: rgb(135, 222, 147);
+}
+
+.links {
+	text-align: center;
+	padding: 35px;
+	background: #000;
+	
+}
+
+.sidebar {
+	background: rgb(135, 158, 222);
+	
+}
+
+.sidebar div {
+	text-align: center;
+	padding: 20px;
+	border-bottom: solid 2px;
+	max-height: fit-content;
+	
+}
+
+.main-content {
+	padding: 50px;
+	background: url(../images/farm3.jpeg);
+	background-position: center;
+}
+
+.main-content h2 {
+	text-align: center;
+	margin: 20px;
+	color:seashell;
+}
+
+.footer {
+	background: #000;
+	padding: 30px;
+	text-align:  center;
+	color:  #FFF;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #99b4ff;
+}
+
+a:active {
+	color: #1DA1F2;
+}
+
+.logo {
+	padding: 12px;
+	text-align: center;
+}
+
+.logo img {
+	height: 60px;
+	width: 70px;
+}
+
+.table {
+	background-color: rgb(197, 135, 222);
+	width: fit-content;
+	height: inherit;
+	padding: 10px;
+	margin: auto;
+
+}
+
+.register-container {
+	background-color: rgb(222, 135, 200);
+	width: fit-content;
+	height: inherit;
+	padding: 10px;
+	margin: auto;
+}
+
+.login-container {
+	background-color: rgb(8, 28, 206);
+	width: fit-content;
+	height: inherit;
+	padding: 10px;
+	margin: auto;
+}

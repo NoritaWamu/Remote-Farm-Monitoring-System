@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>THE COUNTRY COTTAGE FARM</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <script type="text/javascript" src="../js/main.js"></script>
+  </head>
+
+  <body>
+    <div>
+      <!-- header -->
+      <my-header class="grid-container">
+        <div class="main-content">
+          <div class="box"></div>
+          <div class="container-forms">
+            <div class="container-info">
+              <div class="info-item"></div>
+              <div class="info-item">
+                <div class="table">
+                  <div class="table-cell"></div>
+                </div>
+              </div>
+            </div>
+            <div class="container-form">
+              <div class="form-item log-in">
+                <div class="table">
+                  <div class="table-cell">
+                    <div style="overflow-y: scroll; height: 300px">
+                      <label for="date"
+                        ><h3 style="color: black">Date</h3></label
+                      >
+                      <input type="date" date="date" id="date" required /><br />
+                      <label for="time"
+                        ><h3 style="color: black">Time</h3></label
+                      >
+                      <input type="time" time="time" id="time" required /><br />
+                      <label for="device"
+                        ><h3 style="color: black">Device</h3></label
+                      >
+                      <input
+                        type="device"
+                        device="device"
+                        id="device"
+                        required
+                      /><br />
+                      <label for="temprature"
+                        ><h3 style="color: black">Temprature</h3></label
+                      >
+                      <input
+                        type="number"
+                        temprature="temprature"
+                        id="temprature"
+                        required
+                      /><br />
+                      <label for="humidity"
+                        ><h3 style="color: black">Humidity</h3></label
+                      >
+                      <input
+                        type="number"
+                        humidity="humidity"
+                        id="humidity"
+                        required
+                      /><br />
+                      <label for="upload_images"
+                        ><h3 style="color: black">Upload Images Here</h3></label
+                      >
+                      <br />
+                      <form action="collectors.html" method="get">
+                        <input
+                          style="color: black"
+                          type="file"
+                          name="image_upload"
+                        />
+                        <input type="submit" name="submit" />
+                      </form>
+                      <button type="submit" class="btn">Submit</button>
+                      <button type="reset" class="btn">Reset</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- footer -->
+        <my-footer class="footer"></my-footer>
+      </my-header>
+    </div>
+  </body>
+</html>

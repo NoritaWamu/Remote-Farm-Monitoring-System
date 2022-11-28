@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>THE COUNTRY COTTAGE FARM</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <script type="text/javascript" src="../js/main.js"></script>
+  </head>
+
+  <body>
+    <div>
+      <!-- header -->
+      <my-header class="grid-container">
+        <!-- main content -->
+        <div class="main-content">
+          <!-- Log In -->
+          <div class="login container">
+            <div class="login-container">
+              <h2>Login To Continue</h2>
+
+              <!-- Login Form -->
+              <form action="" method="POST">
+                <span>Enter your email address</span><br />
+                <input
+                  type="email"
+                  name="email"
+                  id=""
+                  placeholder="e.g.johnsmith@gmail.com"
+                  required
+                /><br /><br />
+                <span>Login As (please select one)</span><br />
+                <div class="data collector checkbox">
+                  <label class="switch">
+                    <input type="radio" value="" name="collector" id="" />
+                    <span
+                      class="switch-label"
+                      data-on="YES"
+                      data-off="NO"
+                    ></span>
+                    <span>Data Collector</span>
+                  </label>
+                </div>
+
+                <div class="stakeholder checkbox">
+                  <label class="switch">
+                    <input type="radio" value="" name="stakeholder" id="" />
+                    <span
+                      class="switch-label"
+                      data-on="YES"
+                      data-off="NO"
+                    ></span>
+                    <span>Stakeholder</span>
+                  </label>
+                </div>
+                <br />
+
+                <span>Enter your password</span><br />
+                <input
+                  types="password"
+                  name="password"
+                  id=""
+                  placeholder="*******"
+                  required
+                /><br /><br />
+                <input
+                  type="submit"
+                  name="submit"
+                  value="Log In"
+                  class="button"
+                /><br />
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <!-- footer -->
+        <my-footer class="footer"></my-footer>
+      </my-header>
+    </div>
+  </body>
+</html>
